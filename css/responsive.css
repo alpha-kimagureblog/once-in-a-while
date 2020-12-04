@@ -13,7 +13,7 @@
 	}
 
 /* スマホ向けレイアウト */
-@media screen and (max-width: 670px) {
+@media all and (max-width: 670px) {
 	.guildrule-wrapper h3 {
 		width: 100%;
 	}
