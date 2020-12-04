@@ -39,6 +39,10 @@
 		font-size: 14px;
 	}
 
+	.text-contents {
+		width: 90%;
+	}
+
 	.btn {
 		width: 100%;
 	}
