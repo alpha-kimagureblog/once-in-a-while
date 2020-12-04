@@ -1,0 +1,48 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+	.guild-master {
+		margin-right: 100px;
+	}
+
+	.guildrule-wrapper h3 {
+		width: 80%;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+	.guildrule-wrapper h3 {
+		width: 100%;
+	}
+
+	.top-wrapper {
+		text-align: left;
+	}
+
+	.header-right {
+		display: none;
+	}
+
+	.guild-master {
+		margin: 0;
+	}
+
+	.menu-icon {
+		display: block;
+	}
+
+	.top-wrapper p {
+		font-size: 14px;
+	}
+
+	.btn {
+		width: 100%;
+	}
+
+	.noname-image {
+		width: 100%;
+	}
+}
